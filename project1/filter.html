@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            height: 700px;
+            animation: fadeimage 5s infinite alternate ;
+
+            /* filter:grayscale(100%); */
+            
+        }
+        @keyframes fadeimage{
+            0%{
+                filter: grayscale(100%);
+            }
+            25%{
+                filter: grayscale(75%);
+
+            }
+            50%{
+                filter: grayscale(50%);
+            }
+            75%{
+                filter: grayscale(25%);
+            }
+            100%{
+                filter: grayscale(0%);
+            }
+        }
+        /* img:hover{
+            filter:grayscale(0%)
+        } */
+    </style>
+</head>
+<body>
+    <img src="C:\Users\singh\Downloads\blake-meyer-5RBXc7R-YWs-unsplash.jpg " alt="Tiger" >
+    
+</body>
+</html>

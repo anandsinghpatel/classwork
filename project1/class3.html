@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/submit" method="get" autocomplete="on">
+        <label for="fullName">Full name :</label>
+        <input type="text"
+            id="fullName"
+            name="fullName" 
+            placeholder="Enter your name"
+            required>
+        <button type="submit">Submit</button>
+        <br/>
+
+    </form>
+        <input type="radio" id="male" name="Gender" required/>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="Gender" required/>
+        <label for="female">Female</label>
+
+        <br/>
+        <lebal for="city">Select Your City</lebal>
+        <select id="city" name="city"  multiple size="1"/>
+
+        <!-- <option value="">--select city--</option> -->
+        <option value="Delhi">Delhi</option>
+        <option value="mumbai">Muambi</option>
+        <br/>
+
+        <lebal for="city">City:</lebal>
+        <input type="text" id="city" name="city" list="cities" placeholder="Enter Your City"/>
+        <datalist id="cities">
+            <option value="delhi">
+            <option value="muambi">
+            <option value="mathura">
+
+            
+
+        </datalist>
+        <br/>
+        <form>
+    <label>Enter Name:</label>
+
+    <input type="text" required>
+
+    <button type="submit">Submit</button>
+</form>
+
+
+    </from>
+    
+</body>
+</html>

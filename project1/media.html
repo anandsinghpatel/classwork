@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main{
+            width:100vw;
+            height:100vh;
+            display:grid;
+            grid-template-columns: 1fr 5fr 1fr;
+            grid-template-rows: 1fr 5fr 1fr;
+            grid-template-areas: 
+            "header header header"
+            "sidebar main secsidebar"
+            "footer footer footer";
+        }
+        .c1{
+            grid-area:sidebar;
+            background-color: aqua;
+
+        }
+        .c2{
+            grid-area: header;
+            background-color: bisque;
+        }
+        .c3{
+            grid-area: main;
+            background-color: yellowgreen;
+        }
+        .c4{
+            grid-area: secsidebar;
+        }
+        
+        /* @media(max-width:425px){
+            main{
+                background-color: blue;
+            }
+        }
+        @media(min-width:769px){
+            main{
+                background-color: bisque;
+            }
+        } */
+
+    </style>
+</head>
+<body >
+    <div>
+        <main>
+            <div class="c1"></div>
+            <div class="c2"></div>
+            <div class="c3"></div>
+            <div class="c4"></div>
+
+        </main>
+
+    </div>
+    
+</body>
+</html>

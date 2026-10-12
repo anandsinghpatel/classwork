@@ -1,0 +1,38 @@
+.card{
+    width:1000px;
+    display:flex;
+    background-color :bisque;
+    border:3px solid rgba(255, 0, 0, 0.534) ;
+    justify-content: space-around;
+    
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    gap:30px;
+    align-items: center;
+    margin:auto;
+}
+@media(max-width:430px){
+      .card
+      { flex-wrep:wrep;
+        width: 300px;
+
+      }
+}
+.card div{
+    width: 600px;
+    
+
+}
+.card div >h1{
+    font-size: 40px;
+    text-align:  center;
+}
+.card div>#im1{
+    height: 300px;
+    width: 200px;
+    
+
+
+   
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/sunmit" method="get" autocompleterd="on">
+        <fieldset>
+            <legend border="3">Personal Informataion</legend>
+            <lebal for="name">Full Name:</lebal>
+            <input type="text" required placeholder="Enter Youe Name" minlength="3" maxlength="15" id="name" name="name" aria-required="">
+            <button type="submit">Submit</button>
+            <br/>
+            <br/>
+            <lebal for="mail">Mail:</lebal>
+            <input type="email" required placeholder="Example @gmail.com" id="mail" name="mail">
+            <br/>
+            <br/>
+            <lebal for="password">Password:</lebal>
+            <input type="password" required placeholder="Enter password" id="passwowrd" name="password">
+            <br/>
+            <br/>
+            <lebal for="phNumber">Phone Number :</lebal>
+            <input type="tel" placeholder="Enter Phone Number" id="pnonenumber" name="phonenumber"  minlength="10" maxlength="10" required>
+
+            <p>Gender</p>
+            <input type="radio" id="male" name="gender"/>
+            <lebal for="mail">Male</lebal>
+            <input type="radio" id="female" name="gender"/>
+            <lebal for="fenale">Female</lebal> 
+            <input type="radio" id="other" name="gender"/>
+            <lebal for="other">Other</lebal>
+            <br/>
+            <br/>
+            <input type="color" id="col" name="type"/>
+            <lebal for="col" >colour</lebal>
+
+        </fieldset>
+        <fieldset >
+            <legend>Academic Information</legend>
+            <label  for="course">Select your cource</label>
+            <select id="course" name="course">
+                <option value=""></option>
+                <option value="Bca">Bca</option>
+                <option value="Btech">B.Tech</option>
+                <option value="Mtech">M Tech</option>
+            </select>
+            <br/>
+            <br/>
+            <label for="skills">Known Programing Langusge</label>
+            <select id="skills" name="skills" multiple size="1">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javascript">Java Script</option>
+                <option value="python">Python</option>
+            </select>
+
+        </fieldset>
+        <fieldset>
+            <label for="age">Age</label>
+            <input type="number" >
+            <br/>
+            <br/>
+            <label for="city" >City</label>
+            <input type="text" >
+        </fieldset>
+        <fieldset>
+            <legend>Skills & Intern</legend>
+            <p>Select your skills</p>
+            <input type="checkbox" id="html" name="programming">
+            <label for="html">HTML</label>
+            <input type="checkbox" id="css" name="programming">
+            <label for="css">CSS</label>
+            <input type="checkbox" id="java" name="programming">
+            <label for="java" >JAVA SCRIPT</label>
+        </fieldset>
+        <fieldset>
+            <legend>File Uplode</legend>
+            <label for="resume">Resume</label>
+            <input type="file" accept=".pdf" required id="resume" name="resume">
+            <br/>
+            <br/>
+            <label for="image">Image</label>
+            <input type="image" accept=".pdf,.png.,jpg" required id="image" name="image">
+        </fieldset>
+
+
+        
+
+        
+    </form>
+    
+</body>
+</html>
